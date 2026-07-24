@@ -1,8 +1,14 @@
 aid: cala-health
 name: Cala Health
-description: 'Cala Health is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Cala Health is a bioelectronic medicine company that develops wearable neuromodulation
+  therapies for chronic disease. Its FDA-cleared Cala kIQ and Cala TRIO systems deliver TAPS
+  (Transcutaneous Afferent Patterned Stimulation) therapy through a wrist-worn device that is
+  physician-prescribed and clinically proven to reduce action hand tremors associated with
+  essential tremor and Parkinson''s disease. Patients manage therapy and view results through
+  the MyCala portal, and clinicians access data through the Cala 360 provider portal. Cala Health
+  is a GV (Google Ventures) portfolio company operating in the life-sciences / medical-device
+  sector. This profile currently exposes no public developer API; enrichment has captured the
+  company''s public security, privacy, and support surface.'
 url: https://raw.githubusercontent.com/api-evangelist/cala-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://calahealth.com/wp-content/uploads/2023/05/cala-logo-registered-black.svg
 tags:
 - Company
 - Life Sciences
+- Medical Devices
+- Neuromodulation
+- Bioelectronic Medicine
+- Digital Health
+- Wearables
+- Neurology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://calahealth.com
+  url: https://calahealth.com
+- type: Support
+  url: https://calahealth.com/support/help-center/
+- type: PrivacyPolicy
+  url: https://calahealth.com/terms/privacy-policy/
+- type: TermsOfService
+  url: https://calahealth.com/terms/website-terms-of-use/
+- type: Login
+  url: https://mycala.com
+- type: Blog
+  url: https://calahealth.com/about-us/newsroom/
+- type: Security
+  url: https://calahealth.com/security/
+- type: VulnerabilityDisclosure
+  url: security/cala-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/cala-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
